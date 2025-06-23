@@ -52,11 +52,17 @@ Press 'Q' to exit
 File Structure:
 
 text
+
 project/
+
 ├── rock_paper_scissors.py     # Main game implementation
+
 ├── my_model.keras             # Trained gesture classification model
+
 ├── X_test.npy                 # Test images dataset
+
 ├── y_test.npy                 # Test labels dataset
+
 └── history.npy                # Training history data
 How It Works
 Frame Capture: Webcam captures real-time video
